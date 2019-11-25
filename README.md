@@ -11,6 +11,13 @@ https://www.freecodecamp.org/news/express-js-and-aws-lambda-a-serverless-love-st
 ```
 $ cp app.js app.local.js
 ```
+Update app.local.js to the following:
+```javascript
+const app = require('./app')
+const port = 3000
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+```
 
 ### Step 2
 ```
