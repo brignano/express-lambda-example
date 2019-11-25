@@ -26,19 +26,9 @@ $ claudia generate-serverless-express-proxy --express-module app
 ```
 
 ### Step 4
-```
-(set AWS environment variables)
+4.1 [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 
-Mac/Linux:
-export AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
-export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-setx AWS_DEFAULT_REGION us-east-1
-
-Windows:
-setx AWS_ACCESS_KEY_ID AKIAIOSFODNN7EXAMPLE
-setx AWS_SECRET_ACCESS_KEY wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
-setx AWS_DEFAULT_REGION us-east-1
-```
+4.2 [Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 ### Step 5
 ```
