@@ -11,7 +11,7 @@ https://www.freecodecamp.org/news/express-js-and-aws-lambda-a-serverless-love-st
 ```
 $ cp app.js app.local.js
 ```
-Update app.local.js to the following:
+Update **app.local.js** to the following:
 ```javascript
 const app = require('./app')
 const port = 3000
