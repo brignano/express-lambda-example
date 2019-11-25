@@ -4,6 +4,7 @@ Simple Express API with AWS Lambda deploy setup as proof of concept for students
 
 # Tutorial
 https://www.freecodecamp.org/news/express-js-and-aws-lambda-a-serverless-love-story-7c77ba0eaa35/
+
 *Reference: [Claudia JS](https://claudiajs.com/tutorials/serverless-express.html)*
 
 ### Step 1
@@ -43,3 +44,4 @@ setx AWS_DEFAULT_REGION us-east-1
 ```
 $ claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
 ```
+
