@@ -20,11 +20,13 @@ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
 
 ## Step 2
+Replace the last line of **app.js**:
+```javascript
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 ```
-(app.js)
-
-Replace:    app.listen(...)
-With:       module.exports = app
+With the following snippet:
+```javascript
+module.exports = app
 ```
 
 ## Step 3
