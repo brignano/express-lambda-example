@@ -33,9 +33,9 @@ $ claudia generate-serverless-express-proxy --express-module app
 ```
 
 ### Step 4
-**(4.1)** [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
+**4.1** [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 
-**(4.2)** [Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+**4.2** [Configure AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 ### Step 5
 ```
