@@ -2,7 +2,7 @@
 
 Simple Express API with AWS Lambda deploy setup as proof of concept for students.
 
-# How to Reproduce this Setup
+# Reproduce this Setup
 https://www.freecodecamp.org/news/express-js-and-aws-lambda-a-serverless-love-story-7c77ba0eaa35/
 
 *Reference: [Claudia JS](https://claudiajs.com/tutorials/serverless-express.html)*
@@ -34,8 +34,15 @@ $ claudia generate-serverless-express-proxy --express-module app
 ```
 $ claudia create --handler lambda.handler --deploy-proxy-api --region us-east-1
 ```
-# Run Locally
-**note:** *this will run the command* `node app.local.js` *as per **start** script definition in package.json*
+
+# Local Setup
+**note:** *this will install all the dependencies as per the **package.json***
+'''
+$ npm install
+'''
+
+# Local Development
+**note:** *this will run the command* `node app.local.js` *as per **start** script definition in **package.json***
 ```
 $ npm start
 
@@ -46,7 +53,7 @@ $ npm start
 ```
 
 # Re-deploy (Update) Application
-**note:** *this will run the command* `claudia update` *as per **deploy** script definition in package.json*
+**note:** *this will run the command* `claudia update` *as per **deploy** script definition in **package.json***
 ```
 $ npm run deploy
 ```
